@@ -7,9 +7,10 @@ const start = require('./src/start.js')
 
 module.exports = Object.assign({},
   core,
-  EntityManager,
-
-  canvas,
-  events,
-  start
+  {
+    EntityManager,
+    canvas,
+    events,
+    start
+  }
 )
